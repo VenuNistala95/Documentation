@@ -2,15 +2,20 @@
 
 **How to download and install Kafka, Zookeeper and set up producer and consumer.**
 
-Step 1: Download apache kafka from https://kafka.apache.org/downloads 
+**Step 1:**
+Download apache kafka from https://kafka.apache.org/downloads 
   Note: Download the Binary, not source. I have downloaded - Scala 2.12  - kafka_2.12-3.4.0.tgz (asc, sha512)
-Step 2: Download apache zookeeper from https://www.apache.org/dyn/closer.lua/zookeeper/zookeeper-3.8.1/apache-zookeeper-3.8.1-bin.tar.gz
-Step 3: Download 7Zip from https://www.7-zip.org/download.html
+**Step 2:**
+Download apache zookeeper from https://www.apache.org/dyn/closer.lua/zookeeper/zookeeper-3.8.1/apache-zookeeper-3.8.1-bin.tar.gz
+**Step 3:**
+Download 7Zip from https://www.7-zip.org/download.html
   Note: Run 7Zip.exe as administrator on your machine
-Step 4: Using 7Zip, extract the apache kafka(kafka_2.12-3.4.0.tgz) to kafka_2.12-3.4.0.tar. 
+**Step 4:**
+Using 7Zip, extract the apache kafka(kafka_2.12-3.4.0.tgz) to kafka_2.12-3.4.0.tar. 
 Again using 7Zip, extract kafka_2.12-3.4.0.tar to a folder named "kafka" in your C drive. 
 Note: It is important to extract and save the kafka files inside kafka folder. else you will receive an error when starting kafka server.
-Step 5: Using 7Zip, extract the apache zookeeper to your local C drive --follow the steps similar to kafka extracting. 
+**Step 5:**
+Using 7Zip, extract the apache zookeeper to your local C drive --follow the steps similar to kafka extracting. 
 Extract the files to a folder named "zookeeper" to you C drive
 
 **#Configuring zookeeper and Kafka**
